@@ -1,4 +1,4 @@
-# Oshna Portfolio - API-Driven Portfolio System
+# ASWE - Resume Web Site
 
 A modern, responsive portfolio website built with Next.js 14, featuring a complete admin panel and API-driven content management with automatic fallback to default data.
 
