@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-white: #f8fafc;
+  --primary-blue: #2563eb;
+  --accent-blue-light: #3b82f6;
+  --accent-blue-lighter: #60a5fa;
+  --glass-bg: rgba(248, 250, 252, 0.95);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --modal-bg: rgba(248, 250, 252, 0.98);
+}
+
+.dark {
+  --primary-white: #0f172a;
+  --primary-blue: #60a5fa;
+  --glass-bg: rgba(15, 23, 42, 0.95);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --modal-bg: rgba(15, 23, 42, 0.98);
+}
+
+/* Neomorphism */
+.neomorphic {
+  background: var(--primary-white);
+  box-shadow: 8px 8px 16px rgba(163, 177, 198, 0.6), -8px -8px 16px rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.neomorphic:hover {
+  box-shadow: 12px 12px 24px rgba(163, 177, 198, 0.8), -12px -12px 24px rgba(255, 255, 255, 0.7);
+  transform: translateY(-2px);
+}
+
+.neomorphic-inset {
+  background: var(--primary-white);
+  box-shadow: inset 4px 4px 8px rgba(163, 177, 198, 0.6), inset -4px -4px 8px rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+}
+
+/* Glassmorphism */
+.glassmorphic {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+
+/* Modal specific glassmorphism with solid background */
+.modal-glassmorphic {
+  background: var(--modal-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+
+/* Claymorphism */
+.claymorphic {
+  background: linear-gradient(145deg, #e6f3ff, #ffffff);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.1), 0 6px 6px rgba(37, 99, 235, 0.1), inset 0 -1px 0
+    rgba(37, 99, 235, 0.1);
+  transition: all 0.3s ease;
+}
+
+.claymorphic:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(37, 99, 235, 0.15), 0 12px 12px rgba(37, 99, 235, 0.15), inset 0 -1px 0
+    rgba(37, 99, 235, 0.1);
+}
+
+/* Gradient backgrounds */
+.gradient-primary {
+  background: linear-gradient(145deg, #3b82f6, #60a5fa);
+}
+
+.gradient-hero {
+  background: linear-gradient(
+    135deg,
+    rgba(248, 250, 252, 0.9) 0%,
+    rgba(59, 130, 246, 0.1) 50%,
+    rgba(96, 165, 250, 0.2) 100%
+  );
+}
+
+/* Animations */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(37, 99, 235, 0.6);
+  }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, #f0f0f0 0px, #e0e0e0 40px, #f0f0f0 80px);
+  background-size: 200px;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Loading states */
+.loading-skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Improved scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary-white);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-blue);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-blue-light);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+.focus-visible:focus-visible {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+}
+
+/* Responsive text */
+@media (max-width: 640px) {
+  .responsive-text-sm {
+    font-size: 0.875rem;
+  }
+  .responsive-text-base {
+    font-size: 1rem;
+  }
+  .responsive-text-lg {
+    font-size: 1.125rem;
+  }
+}
