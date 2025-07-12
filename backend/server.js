@@ -5,13 +5,25 @@ const messagesRoute = require('./routes/messages');
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: [
+    'http://localhost:3000',
+    'http://64.226.76.213:3000',
+    'http://64.226.76.213',
+    'https://64.226.76.213:3000',
+    'https://64.226.76.213'
+  ],
   credentials: true,
 }));
 app.use(express.json());
 
 app.options('/api/messages', cors({
-  origin: 'http://localhost:3000',
+  origin: [
+    'http://localhost:3000',
+    'http://64.226.76.213:3000',
+    'http://64.226.76.213',
+    'https://64.226.76.213:3000',
+    'https://64.226.76.213'
+  ],
   credentials: true,
 }));
 

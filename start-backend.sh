@@ -12,5 +12,5 @@ if [ ! -d "node_modules" ]; then
 fi
 
 # Start the development server
-echo "🔥 Starting server on port 5000..."
+echo "🔥 Starting server on port 5001..."
 npm run dev 

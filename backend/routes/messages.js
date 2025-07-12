@@ -2,8 +2,8 @@ const express = require('express');
 const axios = require('axios');
 const { messagesValidation } = require('../middleware/validation');
 
-const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '7753496999:AAHZSQoDl7bYDdIOuXl6823V7dHz5l25nmA';
-const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID ||  '1510894594';
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 
 const router = express.Router();
 
