@@ -156,7 +156,7 @@ export const defaultProjectsData =  [
     developers: [
       {
         name: "Asadbek Abdinazarov",
-        avatar: "/my-photo.jpg",
+        avatar: "/placeholder-user.jpg",
         role: "Full Stack Developer",
         email: "a.abdinazarov@student.pdp.university"
       }
@@ -196,7 +196,7 @@ export const defaultProjectsData =  [
       },
       {
         name: "Muhammad Akhmadaliyev",
-        avatar: "/Muhammad's-Photo.png",
+        avatar: "/placeholder-user.jpg",
         role: "Flutter Developer",
         email: "akhmadaliyev17x@gmail.com"
       }
@@ -239,7 +239,7 @@ export const defaultProjectsData =  [
       },
       {
         name: "Muhammad Akhmadaliyev",
-        avatar: "/Muhammad's-Photo.png",
+        avatar: "/placeholder-user.jpg",
         role: "Flutter Developer",
         email: "akhmadaliyev17x@gmail.com"
       }
@@ -276,7 +276,7 @@ export const defaultProjectsData =  [
     developers: [
       {
         name: "Asadbek Abdinazarov",
-        avatar: "/my-photo.jpg",
+        avatar: "/placeholder-user.jpg",
         role: "Full Stack Developer",
         email: "a.abdinazarov@student.pdp.university"
       }
@@ -326,58 +326,6 @@ export const defaultPostsData = [
     tags: ["Java", "Performance", "JVM"],
     publishedAt: "2024-01-10",
     readTime: "12 min read",
-    featured: false,
-    published: true,
-  },
-  {
-    id: 3,
-    title: "Database Design Best Practices",
-    excerpt:
-      "Essential database design principles and best practices for building efficient and maintainable database schemas.",
-    content: "Full content would be here...",
-    image: "/placeholder.svg?height=200&width=300",
-    tags: ["Database", "PostgreSQL", "Design"],
-    publishedAt: "2024-01-05",
-    readTime: "6 min read",
-    featured: false,
-    published: true,
-  },
-  {
-    id: 4,
-    title: "Implementing CI/CD for Java Applications",
-    excerpt:
-      "Step-by-step guide to setting up continuous integration and deployment pipelines for Java applications using Jenkins and Docker.",
-    content: "Full content would be here...",
-    image: "/placeholder.svg?height=200&width=300",
-    tags: ["CI/CD", "Jenkins", "DevOps"],
-    publishedAt: "2023-12-28",
-    readTime: "10 min read",
-    featured: false,
-    published: true,
-  },
-  {
-    id: 5,
-    title: "Understanding Spring Security Fundamentals",
-    excerpt:
-      "A comprehensive guide to Spring Security basics, covering authentication, authorization, and security best practices.",
-    content: "Full content would be here...",
-    image: "/placeholder.svg?height=200&width=300",
-    tags: ["Spring Security", "Authentication", "Security"],
-    publishedAt: "2023-12-20",
-    readTime: "15 min read",
-    featured: false,
-    published: true,
-  },
-  {
-    id: 6,
-    title: "RESTful API Design Principles",
-    excerpt:
-      "Learn the fundamental principles of designing clean, maintainable, and scalable RESTful APIs with practical examples.",
-    content: "Full content would be here...",
-    image: "/placeholder.svg?height=200&width=300",
-    tags: ["REST API", "Design", "Best Practices"],
-    publishedAt: "2023-12-15",
-    readTime: "9 min read",
     featured: false,
     published: true,
   },
