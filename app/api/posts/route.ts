@@ -7,12 +7,25 @@ let postsData = [
     title: "Building Scalable Microservices with Spring Boot",
     excerpt:
       "Learn how to design and implement microservices architecture using Spring Boot, Docker, and Kubernetes for maximum scalability.",
-    content: "Full content here...",
+    content: "Full content would be here...",
     image: "/placeholder.svg?height=200&width=300",
     tags: ["Spring Boot", "Microservices", "Docker"],
     publishedAt: "2024-01-15",
     readTime: "8 min read",
     featured: true,
+    published: true,
+  },
+  {
+    id: 2,
+    title: "Java Performance Optimization Techniques",
+    excerpt:
+      "Discover advanced techniques to optimize Java application performance, including JVM tuning and memory management.",
+    content: "Full content would be here...",
+    image: "/placeholder.svg?height=200&width=300",
+    tags: ["Java", "Performance", "JVM"],
+    publishedAt: "2024-01-10",
+    readTime: "12 min read",
+    featured: false,
     published: true,
   },
 ]

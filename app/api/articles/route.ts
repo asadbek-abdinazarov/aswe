@@ -7,7 +7,7 @@ let articlesData = [
     title: "Complete Guide to Spring Boot Security",
     excerpt:
       "An in-depth exploration of Spring Security implementation, from basic authentication to advanced authorization patterns.",
-    content: "Full content here...",
+    content: "Full content would be here...",
     image: "/placeholder.svg?height=200&width=300",
     category: "Security",
     tags: ["Spring Security", "JWT", "OAuth2"],
@@ -17,6 +17,22 @@ let articlesData = [
     featured: true,
     published: true,
     views: 15420,
+  },
+  {
+    id: 2,
+    title: "Mastering JPA and Hibernate Performance",
+    excerpt:
+      "Deep dive into JPA and Hibernate optimization techniques, query performance tuning, and common pitfalls to avoid.",
+    content: "Full content would be here...",
+    image: "/placeholder.svg?height=200&width=300",
+    category: "Database",
+    tags: ["JPA", "Hibernate", "Performance"],
+    publishedAt: "2024-01-12",
+    readTime: "20 min read",
+    difficulty: "Intermediate",
+    featured: false,
+    published: true,
+    views: 8930,
   },
 ]
 
