@@ -143,6 +143,7 @@ export const defaultSkillsData = [
 ]
 
 export const defaultProjectsData =  [
+  
   {
     id: 1,
     title: "U-SHORT",
@@ -153,6 +154,7 @@ export const defaultProjectsData =  [
     technologies: ["Java 17", "Spring Boot", "PostgreSQL", "Thymeleaf", "HTML", "CSS", "Bootstrap"],
     githubUrl: "https://github.com/asadbek-abdinazarov/u-short",
     liveUrl: "http://ushort.javachi.uz/shorten",
+
     developers: [
       {
         name: "Asadbek Abdinazarov",
