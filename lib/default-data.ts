@@ -152,7 +152,7 @@ export const defaultProjectsData =  [
     image: "/u-short.png",
     technologies: ["Java 17", "Spring Boot", "PostgreSQL", "Thymeleaf", "HTML", "CSS", "Bootstrap"],
     githubUrl: "https://github.com/asadbek-abdinazarov/u-short",
-    liveUrl: "https://u-short-production.up.railway.app",
+    liveUrl: "http://ushort.javachi.uz/shorten",
     developers: [
       {
         name: "Asadbek Abdinazarov",
