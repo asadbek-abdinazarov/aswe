@@ -10,7 +10,9 @@ app.use(cors({
     'http://64.226.76.213:3000',
     'http://64.226.76.213',
     'https://64.226.76.213:3000',
-    'https://64.226.76.213'
+    'https://64.226.76.213',
+    'http://aswe.javachi.uz',
+    'https://aswe.javachi.uz'
   ],
   credentials: true,
 }));
@@ -22,7 +24,9 @@ app.options('/api/messages', cors({
     'http://64.226.76.213:3000',
     'http://64.226.76.213',
     'https://64.226.76.213:3000',
-    'https://64.226.76.213'
+    'https://64.226.76.213',
+    'http://aswe.javachi.uz',
+    'https://aswe.javachi.uz'
   ],
   credentials: true,
 }));

@@ -1,5 +1,5 @@
 // API Configuration - Update these URLs to match your external backend
-const API_BASE_URL = "http://64.226.76.213:5001/api"
+const API_BASE_URL = "http://aswe.javachi.uz/api"
 
 import {
   defaultAboutData,
